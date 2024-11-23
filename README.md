@@ -43,11 +43,11 @@ Training Loss: Converges over several iterations to a low value, indicating the 
 Generated Text: Produces coherent text based on the training data at the character level.
 
 # Future Improvements
-Larger Contexts: Experiment with longer context lengths for better coherence.
-Scaling Up: Increase model capacity (layers, heads, embedding size) for more complex datasets.
-Larger Model Size:
+1. Larger Contexts: Experiment with longer context lengths for better coherence.
+2. Scaling Up: Increase model capacity (layers, heads, embedding size) for more complex datasets.
+3. Larger Model Size:
 Increase the model's capacity by using a higher number of layers, heads, or embedding dimensions. This will allow the model to learn more complex patterns and generate higher-quality text.
-Different Tokenization Schemes:
+4. Different Tokenization Schemes:
 Instead of character-level tokenization, use subword or word-level tokenization for better efficiency and language understanding. Implement tokenization using libraries such as:
 Hugging Face Tokenizers
 Byte Pair Encoding (BPE)
